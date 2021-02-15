@@ -1,0 +1,404 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: GillSans;
+  src: url(fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: Prox;
+  src: url(fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.hero {
+  width: 1280px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+}
+.hero .mid-hero {
+  width: 1280px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.hero .mid-hero .button {
+  height: 40px;
+  width: 122px;
+  background-color: #79addc;
+  font-size: 15px;
+  font-family: GillSans;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero h1 {
+  font-size: 60px;
+  font-family: Prox;
+  color: #fff;
+}
+.hero h3 {
+  font-size: 20px;
+  font-family: GillSans;
+  color: #fff;
+}
+
+footer {
+  width: 1280px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #79addc;
+  display: flex;
+  justify-content: center;
+}
+footer .bottom {
+  width: 985px;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer .bottom .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo/logo-white.png);
+}
+footer .bottom .cpright p {
+  color: #fff;
+  font-size: 12px;
+  font-family: GillSans;
+}
+footer .bottom .socials {
+  height: 25px;
+  width: 115px;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .bottom .socials .box {
+  height: 23px;
+  width: 23px;
+  background-color: #fff;
+}
+
+.booking-form {
+  width: 1280px;
+  height: 890px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.booking-form h2 {
+  font-size: 60px;
+  font-family: Prox;
+  color: #000;
+}
+.booking-form p {
+  font-size: 18px;
+  font-family: GillSans;
+  color: #000;
+}
+.booking-form .info1 {
+  width: 818px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.booking-form .info1 .info1a {
+  height: 58px;
+  width: 344px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-style: solid;
+  border-color: #79addc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.booking-form .info1 .info1b {
+  height: 58px;
+  width: 453px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-style: solid;
+  border-color: #79addc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.booking-form .info2 {
+  width: 818px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.booking-form .info2 .date {
+  height: 58px;
+  width: 698px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-style: solid;
+  border-color: #79addc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.booking-form .info2 .date .small_icon {
+  height: 19px;
+  width: 19px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.booking-form .info3 {
+  width: 818px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.booking-form .info3 .amounts {
+  width: 224px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.booking-form .info3 .amounts .dropdown {
+  height: 58px;
+  width: 103px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-style: solid;
+  border-color: #79addc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.booking-form .info3 .amounts .dropdown .arrow {
+  height: 10px;
+  width: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.booking-form .info4 {
+  height: 192px;
+  width: 818px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-style: solid;
+  border-color: #79addc;
+  display: flex;
+  justify-content: space-between;
+}
+.booking-form .submit {
+  height: 60px;
+  width: 813px;
+  background-color: #79addc;
+  border-radius: 61px;
+  border: 2px solid #79addc;
+  align-self: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.booking-form .submit p {
+  color: #fff;
+}
+
+.promo-tours {
+  width: 1280px;
+  height: 304px;
+  margin: -45px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+.promo-tours h1 {
+  font-size: 60px;
+  font-family: Prox;
+  color: #fff;
+}
+.promo-tours h4 {
+  font-size: 30px;
+  font-family: Prox;
+  color: #fff;
+}
+.promo-tours h6 {
+  font-size: 15px;
+  font-family: GillSans;
+  color: #fff;
+}
+.promo-tours .promo {
+  height: 304px;
+  width: 236px;
+}
+.promo-tours .promo .israel {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.promo-tours .promo .israel .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+}
+.promo-tours .promo .israel .learn {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.promo-tours .promo .israel .learn .button {
+  width: 135px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 61px;
+  border: 2px solid #79addc;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.promo-tours .promo .usa {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.promo-tours .promo .usa .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+}
+.promo-tours .promo .usa .learn {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.promo-tours .promo .usa .learn .button {
+  width: 135px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 61px;
+  border: 2px solid #79addc;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.promo-tours .promo .aussie {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.promo-tours .promo .aussie .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+}
+.promo-tours .promo .aussie .learn {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.promo-tours .promo .aussie .learn .button {
+  width: 135px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 61px;
+  border: 2px solid #79addc;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  width: 980px;
+  height: 60px;
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #fff solid 2px;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo/logo-white.png);
+}
+nav .links {
+  width: 392px;
+  height: 42px;
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  align-items: center;
+}
+nav .links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-family: GillSans;
+}

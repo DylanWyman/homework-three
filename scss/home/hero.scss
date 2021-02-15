@@ -1,0 +1,43 @@
+.hero {
+  width: 1280px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, $hero-black, $hero-black),
+    url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+
+  .mid-hero {
+    width: 1280px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .button {
+      height: 40px;
+      width: 122px;
+      background-color: $site-blue;
+      font-size: 15px;
+      font-family: GillSans;
+      color: $white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  h1 {
+    font-size: 60px;
+    font-family: Prox;
+    color: $white;
+  }
+  h3 {
+    font-size: 20px;
+    font-family: GillSans;
+    color: $white;
+  }
+}

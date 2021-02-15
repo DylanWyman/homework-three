@@ -1,0 +1,136 @@
+.booking-form {
+  width: 1280px;
+  height: 890px;
+  margin: 0 auto;
+  //background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  h2 {
+    font-size: 60px;
+    font-family: Prox;
+    color: $black;
+  }
+  p {
+    font-size: 18px;
+    font-family: GillSans;
+    color: $black;
+  }
+
+  .info1 {
+    width: 818px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    .info1a {
+      height: $info1a-height;
+      width: $info1a-width;
+      padding-left: 10px;
+      padding-top: 10px;
+      border-style: solid;
+      border-color: $site-blue;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .info1b {
+      height: $info1b-height;
+      width: $info1b-width;
+      padding-left: 10px;
+      padding-top: 10px;
+      border-style: solid;
+      border-color: $site-blue;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  .info2 {
+    width: 818px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+
+    .date {
+      height: $info2-height;
+      width: $info2-width;
+      padding-left: 10px;
+      padding-top: 10px;
+      border-style: solid;
+      border-color: $site-blue;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .small_icon {
+        height: 19px;
+        width: 19px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .info3 {
+    width: 818px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+
+    .amounts {
+      width: 224px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .dropdown {
+        height: $info3-height;
+        width: $info3-width;
+        padding-left: 10px;
+        padding-top: 10px;
+        border-style: solid;
+        border-color: $site-blue;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .arrow {
+          height: 10px;
+          width: 20px;
+          margin-right: 10px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  .info4 {
+    height: $info4-height;
+    width: $info4-width;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-style: solid;
+    border-color: $site-blue;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .submit {
+    height: 60px;
+    width: 813px;
+    background-color: $site-blue;
+    border-radius: 61px;
+    border: 2px solid $site-blue;
+    align-self: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    p {
+      color: $white;
+    }
+  }
+}
